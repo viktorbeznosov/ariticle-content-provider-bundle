@@ -1,0 +1,20 @@
+{
+    "name": "viktorbeznosov/ariticle-content-provider-bundle",
+    "description": "\"Генератор контента статьи для курсов Skillbox\"",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "viktorbeznosov",
+            "email": "viktorbeznosov@mail.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "CatCasCarSkillboxSymfony\\ArticleContentProviderBundle\\": "src"
+        }
+    }
+}
